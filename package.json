@@ -1,0 +1,23 @@
+{
+  "name": "shopify-nfts-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/shopify-api": "^6.2.0",
+    "@thirdweb-dev/sdk": "^3.10.3",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21",
+    "raw-body": "^2.5.2"
+  }
+}
